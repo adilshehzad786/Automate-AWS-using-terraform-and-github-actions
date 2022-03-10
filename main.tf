@@ -9,7 +9,7 @@ terraform {
     organization = "adil"
 
     workspaces {
-      name = "infra-aws-githubactions"
+      name = "Automte-AWS-using-terraform-and-github-actions"
     }
   }
 }
