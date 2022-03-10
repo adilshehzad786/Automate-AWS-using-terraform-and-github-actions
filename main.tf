@@ -18,7 +18,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_instance" "Terraform Server" {
+resource "aws_instance" "terraformserver" {
   ami           = "ami-01b20f5ea962e3fe7"
   instance_type = "t2.micro"
   tags = {
