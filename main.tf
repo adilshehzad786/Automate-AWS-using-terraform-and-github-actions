@@ -22,6 +22,7 @@ resource "aws_instance" "terraformserver" {
   ami           = "ami-01b20f5ea962e3fe7"
   instance_type = "t2.micro"
   tags = {
-    Name = "terraform-server"
+    Name = "terraform-server",
+    Key = "github"
   }
 }
