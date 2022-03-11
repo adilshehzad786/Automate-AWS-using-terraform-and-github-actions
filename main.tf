@@ -25,3 +25,11 @@ resource "aws_instance" "terraformserver" {
     Name = "terraform-server"
   }
 }
+resource "aws_ebs_volume" "terraformvolume" {
+  availability_zone = "us-east-1"
+  size              = 40
+
+  tags = {
+    Name = "TerraformVolume"
+  }
+}
