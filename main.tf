@@ -6,7 +6,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "adil"
+    organization = "adil-test"
 
     workspaces {
       name = "Automte-AWS-using-terraform-and-github-actions"
