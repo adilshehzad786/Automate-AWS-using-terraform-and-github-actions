@@ -6,10 +6,10 @@ terraform {
   }
 
   backend "remote" {
-    organization = "adil-test"
+    organization = "your-organisation-name-here"
 
     workspaces {
-      name = "Automte-AWS-using-terraform-and-github-actions"
+      name = "your-terraform-workspaces-name-here
     }
   }
 }
